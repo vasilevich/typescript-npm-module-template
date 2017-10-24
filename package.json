@@ -1,0 +1,27 @@
+{
+  "name": "typescript-npm-module-template",
+  "version": "1.0.0",
+  "description": "Typescript node module template to my opinionated preference.",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "modules"
+  ],
+  "files": [
+    "lib"
+  ],
+  "author": "RaiX (aka Morten Henriksen)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "6.0.31",
+    "ts-node": "^1.2.1",
+    "typescript": "^2.1.0-dev.20160724"
+  },
+  "dependencies": {
+  }
+}
